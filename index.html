@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- css style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- vue links -->
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+
+    <title>Routing With Vue</title>
+</head>
+<body>
+    <main id="app">
+            <!-- 'to' = router we want to hit -->
+        <router-link to="/">Go to home</router-link>
+        <router-link to="/app">Go to app</router-link>
+
+
+        
+        <!-- this is vue's {{{just like hbs (body)}}} -->
+        <router-view></router-view>
+
+
+        
+    </main>
+
+
+    <script src="js/main.js" type='module'></script>
+</body>
+</html>
